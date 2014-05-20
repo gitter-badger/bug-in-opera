@@ -1,0 +1,13 @@
+<index:>
+  {{if #root.$connection.state !== 'connected'}}
+    <div class="connection">
+      {{if #root.$connection.state === 'stopped'}}
+        Unable to connect &ndash; <a on-click="reload()">Reload</a>
+      {{else}}
+        {{#root.$connection.state}}
+        {{unless hideReconnect}}
+          <a on-click="reconnect()">Reconnect</a>
+        {{/unless}}
+      {{/if}}
+    </div>
+  {{/if}}

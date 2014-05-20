@@ -1,0 +1,21 @@
+{
+    "name": "Bug",
+    "version": "0.1.0",
+    "author": {
+        "name": "James Bay"
+    },
+    "dependencies": {
+      "derby": "~0.6",
+      "racer-bundle": "~0.1.1",
+      "express": "~4.2.0",
+      "static-favicon": "~1.0.0",
+      "body-parser": "1.0.2",
+      "cookie-parser": "~1.0.1",
+      "express-session": "~1.0.2",
+      "livedb-mongo": "~0.3.2",
+      "racer-browserchannel": "~0.1.1",
+      "compression": "1.0.1",
+      "coffee-script": "~1.7.1",
+      "coffeeify": "~0.6.0"
+    }
+}

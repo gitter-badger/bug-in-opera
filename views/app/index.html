@@ -1,0 +1,23 @@
+<import: src="./home">
+<import: src="./page1">
+<import: src="./page2">
+
+<Title:>
+  Bug in Opera
+
+<Body:>
+  <view name="connection-alert"></view>
+  <header class="header">
+    <nav class="header__nav">
+      <ul class="main-nav">
+        <li class="main-nav__item main-nav__item_logo"><a href="/"></a></li>
+        <li class="main-nav__item"><a href="/page1">Page 1</a></li>
+        <li class="main-nav__item"><a href="/page2">Page 2</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <view name="{{$render.ns}}"></view>
+  </main>
+
+  <footer></footer>

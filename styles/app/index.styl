@@ -1,0 +1,47 @@
+@import 'reset'
+
+body
+  font 15px "Pt Sans",sans-serif
+  line-height @baseh
+  font-weight 400
+  margin 0
+  background #E6E6E6
+
+.header
+  height 42px
+  font 14px "PT Sans Caption",sans-serif
+  font-weight 700
+  color #555
+  background white
+  border-bottom 1px solid #CCC
+  box-shadow 0 0 4px rgba(0, 0, 0, 0.15)
+
+a
+  text-decoration none
+  color #555
+
+.header__nav
+  display flex
+  justify-content space-between
+  flex-direction row
+  height 100%
+
+.main-nav
+  display flex
+  height 100%
+  font-weight 500
+
+.main-nav__item
+  display block
+  line-height 42px
+  height: 42px
+  margin-right 12px
+  a
+    display block
+    height 100%
+    width 100%
+
+.main-nav__item_logo
+    width 58px
+    background url('/icons/logo.svg') no-repeat 14px center, \
+    url('/icons/left-menu.svg') no-repeat left center
